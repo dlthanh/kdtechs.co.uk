@@ -1,0 +1,176 @@
+.w1166 {
+  width: 1166px;
+  margin: 0 auto; }
+
+.clearfix:after {
+  content: "";
+  clear: both; }
+
+.fl {
+  float: left; }
+
+.nav {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); }
+  .nav--main {
+    height: 68px;
+    line-height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .nav--logo {
+    height: 32px;
+    line-height: 32px; }
+    .nav--logo a {
+      display: block; }
+      .nav--logo a img {
+        height: 100%;
+        display: inline-block;
+        float: left;
+        margin-right: 15px; }
+    .nav--logo__text {
+      font-weight: 900;
+      text-transform: uppercase;
+      display: inline-block;
+      font-size: 26px;
+      line-height: 32px;
+      color: #666666; }
+  .nav--right li {
+    display: inline-block; }
+    .nav--right li a {
+      display: block;
+      padding: 0 35px;
+      font-weight: 700;
+      color: #666666;
+      text-transform: uppercase;
+      text-decoration: none;
+      height: 40px;
+      line-height: 40px; }
+    .nav--right li:last-child a {
+      background-image: linear-gradient(to right, #3566de, #5e9ef3);
+      color: #ffffff;
+      border-radius: 4px; }
+
+.banner--home {
+  height: 482px;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  .banner--home__image {
+    position: absolute;
+    width: 35.2487136%;
+    bottom: 0;
+    right: 0; }
+    .banner--home__image img {
+      width: 100%; }
+  .banner--home__left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 590px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .banner--home__left--text {
+      width: 400px;
+      font-weight: 700; }
+      .banner--home__left--text h1 {
+        font-size: 47px;
+        color: #333333;
+        margin-bottom: 15px; }
+      .banner--home__left--text span {
+        color: #666666; }
+    .banner--home__left--button {
+      width: 170px; }
+      .banner--home__left--button img {
+        width: 100%; }
+
+.w1166 {
+  width: 1166px;
+  margin: 0 auto; }
+
+.clearfix:after {
+  content: "";
+  clear: both; }
+
+.fl {
+  float: left; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+.kdtechs-wrapper {
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  line-height: auto;
+  margin: 0 auto; }
+
+.function--home {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between; }
+  .function--home__item {
+    width: calc((100% - 80px) / 3);
+    margin-bottom: 40px; }
+    .function--home__item h3 {
+      text-align: center;
+      font-size: 24px;
+      color: #333333;
+      font-weight: 700;
+      margin-bottom: 35px; }
+    .function--home__item p {
+      color: #333333;
+      line-height: 22px;
+      font-weight: 500; }
+    .function--home__item--icon {
+      display: block;
+      margin: 0 auto 40px;
+      height: 55px;
+      background: url("../images/home-function-icon.png") no-repeat; }
+    .function--home__item:nth-child(1) span {
+      width: 48px;
+      background-position: 0 0; }
+    .function--home__item:nth-child(2) span {
+      width: 50px;
+      background-position: -55px 0; }
+    .function--home__item:nth-child(3) span {
+      width: 63px;
+      background-position: -110px 0; }
+
+.customer--home {
+  margin-top: 100px; }
+  .customer--home__heading {
+    margin-bottom: 35px;
+    font-weight: 700; }
+    .customer--home__heading h2 {
+      font-size: 36px;
+      margin-bottom: 5px;
+      color: #333333; }
+    .customer--home__heading span {
+      color: #666666; }
+  .customer--home__main {
+    background-color: #f9f9f9;
+    padding: 90px 0; }
+    .customer--home__main--content {
+      background-color: #ffffff;
+      padding: 40px 30px 40px 25px;
+      box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      font-weight: 500;
+      font-style: italic;
+      position: relative; }
+      .customer--home__main--content:after {
+        content: "";
+        display: block;
+        border-top: solid 20px #ffffff;
+        border-left: solid 20px transparent;
+        border-right: solid 20px transparent;
+        position: absolute;
+        top: 100%;
+        left: 50px; }
+
+/*# sourceMappingURL=kdtechs.css.map */
